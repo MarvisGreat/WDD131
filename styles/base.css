@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+}
+
+header {
+    background-color: #191970;
+}
+
+#course-title {
+    display: block;
+    color: #ECEFF1;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px
+}
+
+nav {
+    background-color: #5b9de3;
+}
+
+.navigation a {
+    color: #ECEFF1;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navigation :hover {
+    color: #191970;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: -10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+main h1 {
+    font-size: 2rem;
+    grid-column: 1 / -1;
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+main .card {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    border: #ccc solid 1px;
+    border-radius: 8px;
+    margin-top: -10px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #191970;
+    color: #ECEFF1;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: -1.5rem -1.5rem 10px -1.5rem;
+}
+
+.carding {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.card ul li {
+    margin: 10px 0;
+}
+
+.card ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.card ul li a:hover {
+    color: #191970;
+    font-weight: bold;
+}
+
+.card p {
+    width: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.carding img {
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin-left: px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.cardet {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: start;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.check img {
+    width: 150px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.check figcaption {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.cardet h3 {
+    grid-column: 1 / -1;
+    background: none;
+    color: black;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 1.8rem;
+}
+
+#lastModified {
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #191970;
+    color: #ECEFF1;
+    text-align: center;
+    padding: 20px;
+}
