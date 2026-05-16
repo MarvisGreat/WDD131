@@ -109,10 +109,9 @@ main .card {
 }
 
 .card p {
-    width: auto;
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 20px;
+   font-style: italic;
+    text-align: justify;
+    padding: 10px;
 }
 
 .carding img {
